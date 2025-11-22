@@ -130,7 +130,7 @@ Contributions, issues, and feature requests are welcome!
 
 Your Name - [@HafidIdrissi](https://twitter.com/HafidIdrissi)
 
-Project Link: [https://github.com/HafidIdrissi/expense-tracker](https://github.com/yourusername/expense-tracker)
+Project Link: [https://github.com/HafidIdrissi/expense-tracker](https://github.com/HafidIdrissi/expense-tracker)
 
 ## 🙏 Acknowledgments
 
