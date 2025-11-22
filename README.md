@@ -1,68 +1,79 @@
-# 💸 Expense Tracker
+💸 Expense Tracker
 
-A simple and elegant expense tracking web application built with **Next.js 14** (App Router), using **localStorage** for data persistence and featuring a flexible budget management system.
+Live Demo: https://hafididrissi.github.io/expense-tracker/ 🚀
 
-![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+A simple and elegant expense tracking web application built with Next.js 14 (App Router), using localStorage for data persistence and featuring a flexible budget management system.
 
-## ✨ Features
+✨ Features
 
-- **📊 Real-time Budget Tracking**: Monitor your monthly expenses at a glance
-- **💰 Flexible Daily Budget**: Dynamic daily spending recommendations based on remaining budget
-- **📈 Average Daily Spending**: Visual display of your average daily spending for the month
-- **🎯 Three Categories**: Food, Entertainment, and Leisure
-- **💾 Local Storage**: All data stored locally in your browser (no backend required)
-- **📱 Responsive Design**: Beautiful gradient UI that works on all devices
-- **⚡ Fast & Lightweight**: Built with modern web technologies
+📊 Real-time Budget Tracking: Monitor your monthly expenses at a glance
 
-## 🎯 Budget System
+💰 Flexible Daily Budget: Dynamic daily spending recommendations based on remaining budget
 
-- **Monthly Budget**: €280
-- **Daily Goal**: ~€10/day (flexible)
-- **Smart Calculations**: The app automatically adjusts your daily recommendation based on:
-  - Remaining budget
-  - Days left in the month
-  - Your actual spending patterns
+📈 Average Daily Spending: Visual display of your average daily spending for the month
 
-### Example
-- If you spend €5 today instead of €10 → You can spend €15 tomorrow
-- If you overspend → The daily recommendation adjusts automatically
+🎯 Three Categories: Food, Entertainment, and Leisure
 
-## 🚀 Getting Started
+💾 Local Storage: All data stored locally in your browser (no backend required)
 
-### Prerequisites
+📱 Responsive Design: Beautiful gradient UI that works on all devices
 
-- Node.js 18+ installed
-- npm or yarn package manager
+⚡ Fast & Lightweight: Built with modern web technologies
 
-### Installation
+🎯 Budget System
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/expense-tracker.git
+Monthly Budget: €280
+
+Daily Goal: ~€10/day (flexible)
+
+Smart Calculations: The app automatically adjusts your daily recommendation based on:
+
+Remaining budget
+
+Days left in the month
+
+Your actual spending patterns
+
+Example
+
+If you spend €5 today instead of €10 → You can spend €15 tomorrow
+
+If you overspend → The daily recommendation adjusts automatically
+
+🚀 Getting Started
+
+Prerequisites
+
+Node.js 18+ installed
+
+npm or yarn package manager
+
+Installation
+
+Clone the repository
+
+git clone [https://github.com/HafidIdrissi/expense-tracker.git](https://github.com/HafidIdrissi/expense-tracker.git)
 cd expense-tracker
-```
 
-2. Install dependencies
-```bash
+
+Install dependencies
+
 npm install
 # or
 yarn install
-```
 
-3. Run the development server
-```bash
+
+Run the development server
+
 npm run dev
 # or
 yarn dev
-```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 📁 Project Structure
+Open http://localhost:3000 in your browser
 
-```
+📁 Project Structure
+
 expense-tracker/
 ├── lib/
 │   └── storage.ts          # localStorage functions and calculations
@@ -74,70 +85,92 @@ expense-tracker/
 │       └── layout.tsx
 ├── package.json
 ├── tsconfig.json
+├── next.config.mjs
 └── README.md
-```
 
-## 🛠️ Technologies Used
 
-- **[Next.js 14](https://nextjs.org/)** - React framework with App Router
-- **[TypeScript](https://www.typescriptlang.org/)** - Type safety
-- **[localStorage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)** - Client-side data persistence
-- **CSS-in-JS** - Inline styles with gradients
+🛠️ Technologies Used
 
-## 📱 Pages
+Next.js 14 - React framework with App Router
 
-### Home Page (`/`)
-- Monthly spending overview
-- Remaining budget display
-- Daily spending recommendation
-- Average daily spending
-- Expense history with delete functionality
+TypeScript - Type safety
 
-### Add Expense Page (`/add`)
-- Simple form to add new expenses
-- Amount input
-- Category selection (Food, Entertainment, Leisure)
-- Optional note field
+localStorage API - Client-side data persistence
 
-## 🎨 Design Features
+CSS-in-JS - Inline styles with gradients
 
-- **Purple Gradient Background**: Modern and elegant
-- **White Cards**: Clean and readable content areas
-- **Gradient Buttons**: Eye-catching call-to-actions
-- **Color-coded Stats**: Green for positive, red for overspending
-- **Shadow Effects**: Depth and visual hierarchy
-- **Emoji Icons**: Fun and intuitive category representation
+📱 Pages
 
-## 🔒 Privacy
+Home Page (/)
 
-All data is stored **locally in your browser** using localStorage. Nothing is sent to any server. Your financial information stays completely private.
+Monthly spending overview
 
-## 📝 License
+Remaining budget display
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Daily spending recommendation
 
-## 🤝 Contributing
+Average daily spending
+
+Expense history with delete functionality
+
+Add Expense Page (/add)
+
+Simple form to add new expenses
+
+Amount input
+
+Category selection (Food, Entertainment, Leisure)
+
+Optional note field
+
+🎨 Design Features
+
+Purple Gradient Background: Modern and elegant
+
+White Cards: Clean and readable content areas
+
+Gradient Buttons: Eye-catching call-to-actions
+
+Color-coded Stats: Green for positive, red for overspending
+
+Shadow Effects: Depth and visual hierarchy
+
+Emoji Icons: Fun and intuitive category representation
+
+🔒 Privacy
+
+All data is stored locally in your browser using localStorage. Nothing is sent to any server. Your financial information stays completely private.
+
+📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Fork the project
 
-## 📧 Contact
+Create your feature branch (git checkout -b feature/AmazingFeature)
 
-Your Name - [@HafidIdrissi](https://twitter.com/HafidIdrissi)
+Commit your changes (git commit -m 'Add some AmazingFeature')
 
-Project Link: [https://github.com/HafidIdrissi/expense-tracker](https://github.com/HafidIdrissi/expense-tracker)
+Push to the branch (git push origin feature/AmazingFeature)
 
-## 🙏 Acknowledgments
+Open a Pull Request
 
-- Built with Next.js 14 App Router
-- Inspired by the need for simple, privacy-focused expense tracking
-- Icons from emoji standard
+📧 Contact
 
----
+Hafid Idrissi - @HafidIdrissi
+
+Project Link: https://github.com/HafidIdrissi/expense-tracker
+
+🙏 Acknowledgments
+
+Built with Next.js 14 App Router
+
+Inspired by the need for simple, privacy-focused expense tracking
+
+Icons from emoji standard
 
 Made with ❤️ and ☕
