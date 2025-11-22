@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/expense-tracker', // Remplacez par le nom de votre repo
+  basePath: '/mon-budget', // IMPORTANT: Remplacez par le nom exact de votre repo
   images: {
     unoptimized: true
   }
